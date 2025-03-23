@@ -14,6 +14,15 @@ export default {
         third:"#76ABAE",
         fourth: "#EEEEEE"
       },
+      animation: {
+        'scale-up-down': 'scale-up-down 1.5s infinite ease-in-out',
+      },
+      keyframes: {
+        'scale-up-down': {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.5)' },
+        },
+      },
     },
   },
   plugins: [],
