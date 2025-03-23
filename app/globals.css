@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #222831;
+    --background: #0e0e0f;
     --foreground: #ededed;
   }
 }
@@ -35,4 +35,17 @@ body {
   50% {
     transform: scale(1.5);
   }
+}
+
+/* Update your CSS file */
+.circle-1 {
+  animation-delay: 0s;
+}
+
+.circle-2 {
+  animation-delay: 0.5s;
+}
+
+.circle-3 {
+  animation-delay: 1s;
 }
